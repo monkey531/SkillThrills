@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    --scroll-behavior: smooth !important;
+    scroll-behavior: smooth !important;
+}
+
+html:not([data-scroll="0"]) .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white !important;
+    opacity: 1.9;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+    transition: 0.4s linear;
+    padding: 0px !important;
+    z-index: 3;
+}
+
+hr {
+    background: #9BA3B0;
+    color: #9BA3B0;
+    opacity: 0.45;
+}
+
+.underline-links {
+    position: relative;
+}
+
+.underline-links::before {
+    content: "";
+    position: absolute;
+    left: 34%;
+    bottom: 16px;
+    margin-top: 10px;
+    bottom: 16%;
+    width: 30px;
+    height: 5px;
+    border-radius: 50px;
+    transform: skew(-12deg) translateX(-50%);
+    background: #6556FF;
+    z-index: -1;
+}
+
+.testimonialbg {
+    background: linear-gradient(-60deg, #1CBEEE 29.34%, #1A21BC 107.98%);
+    /* background-image: url('/assets/newsletter/bgg.png'); */
+    clip-path: polygon(100% 0, 100% 38%, 100% 100%, 0 100%, 0 20%);
+}
+
+.clipPath {
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
+}
+
+.space-links {
+    transition: .3s;
+}
+
+.space-links:hover {
+    letter-spacing: 1px;
+}
+
+.lh-120 {
+    line-height: 120% !important;
+}
+
+.lh-160 {
+    line-height: 160% !important;
+}
+
+.footer-icons {
+    transition: .5s;
+}
+
+.footer-icons:hover {
+    transform: translateY(-8px);
+}
+
+.footer-icons:hover>.sepiaa {
+    filter: invert(100.10);
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #1A21BC!important;
+}
+
+.slick-dots li button:before {
+    font-size: 11px!important;
+}
+
+.slick-prev {
+    left: 69rem!important;
+}
+
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: -14%!important;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+@media (min-width: 800px) {
+    .lh-82 {
+        line-height: 82px !important;
+    }
+}
+
+.input-shadow {
+    box-shadow: 0px 63px 59px rgba(26, 33, 188, 0.1);
+}
+
+.w-270 {
+    width: 270px;
+}
+
+@media (max-width: 450px) {
+    .smallImage {
+        width: 15px;
+    }
+}
+
+.shadow-courses {
+    box-shadow: 0px 40px 20px rgba(0, 0, 0, 0.15);
+}
+
+.testimonial-shadow {
+    box-shadow: 0px 5.54348px 11.087px rgba(89, 104, 118, 0.05);
+    border-radius: 22.1739px;
+}
+
+.middleDiv {
+    box-shadow: 5.54348px 38.8043px 110.87px rgba(89, 104, 118, 0.15)!important;
+    border-radius: 22.1739px;
+    transform: scale(1.05);
+}
+
+.slick-dots {
+    color: #1A21BC;
+}
+
+.leftRightAngle {
+    width: 0px;
+    height: 0px;
+    border: 200px solid;
+    border-bottom-color: brown;
+    border-top-color: transparent;
+    border-left-color: brown;
+    border-right-color: transparent;
+}
+
+.bg-imagee {
+    background-image: url('/assets/newsletter/bgFile.png');
+    background-size: cover;
+    border-radius: 20px;
+}
