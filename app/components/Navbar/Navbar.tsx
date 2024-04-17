@@ -15,10 +15,10 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-    { name: 'Home', href: '#/', current: true },
-    { name: 'Courses', href: '#courses', current: false },
+    { name: 'Home', href: '/', current: true },
+    { name: 'Courses', href: '/courses', current: false },
     { name: 'Instructor', href: '#mentor', current: false },
-    { name: 'Our Learners', href: '/', current: false },
+    { name: 'Our Learners', href: '', current: false },
 
 ];
 
