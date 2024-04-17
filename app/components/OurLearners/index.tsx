@@ -18,7 +18,7 @@ const postData: DataType[] = [
         name: "John Doe",
         profession: 'Student',
         comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
-        imgSrc: '/assets/mentor/user3.png',
+        imgSrc: '/assets/mentor/user1.png',
     },
     {
         name: "alex john",
@@ -87,6 +87,8 @@ export default class MultipleItems extends Component {
         return (
             <div className="pt-40 pb-10 sm:pb-32 lg:py-32" id="testimonial">
                 <div className='mx-auto max-w-7xl sm:py-4 lg:px-8'>
+                    {/*      @ts-ignore */}
+
                     <Slider {...settings}>
                         {postData.map((items, i) => (
                             <div key={i}>

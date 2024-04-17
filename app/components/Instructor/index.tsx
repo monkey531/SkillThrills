@@ -15,12 +15,12 @@ const postData: DataType[] = [
     {
         profession: 'Senior UX Designer',
         name: 'John Doe',
-        imgSrc: '/assets/mentor/user3.png',
+        imgSrc: '/assets/mentor/user1.png',
     },
     {
         profession: 'Full Stack Developer',
         name: 'william john',
-        imgSrc: '/assets/mentor/user2.png',
+        imgSrc: '/assets/mentor/user1.png',
     },
     {
         profession: 'Frontend Developer',
@@ -109,6 +109,7 @@ export default class MultipleItems extends Component {
 
                 <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 px-4 lg:px-8 relative'>
                     <h2 className="lh-82 text-midnightblue text-4xl md:text-55xl text-center md:text-start font-semibold">Meet with our <br /> Instructor.</h2>
+                    {/*      @ts-ignore */}
 
                     <Slider {...settings}>
                         {postData.map((items, i) => (
