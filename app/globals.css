@@ -168,7 +168,7 @@ hr {
     border-left-color: brown;
     border-right-color: transparent;
 }
-
+/* here the url will focus its path to public folder location for the image */
 .bg-imagee {
     background-image: url('/assets/newsletter/bgFile.png');
     background-size: cover;
