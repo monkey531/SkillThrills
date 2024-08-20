@@ -13,7 +13,7 @@
 </div>
 
 
-**Skill Thrills** is an educational learning website built with **Next.js** and **TypeScript**, designed to offer immersive and interactive learning experiences. This project is still in **active development**, and the current content and images are placeholders for demo purposes.
+**Skill Thrills** is an educational learning website built with **Next.js** and **TypeScript**, designed to offer immersive and interactive learning experiences. 
 
 ## Table of Contents
 
@@ -36,7 +36,7 @@ Skill Thrills aims to create an educational platform that provides engaging and 
 
 - Built with **Next.js** for server-side rendering and optimized performance.
 - Developed in **TypeScript** for static type checking and improved code quality.
-- Scalable folder structure for managing components and pages.
+- Scalable folder structure for managing components and pages(using `app/` router).
 - Supports interactive educational modules (in development).
 - Placeholder content for now, but ready for integration with real data.
 
